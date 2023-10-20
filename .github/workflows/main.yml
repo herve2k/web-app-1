@@ -19,7 +19,7 @@ jobs:
       id: meta
       uses: docker/metadata-action@v5.0.0
       with:
-        images: herve2k/web-app-1
+        images: herve2k/app-py
         
     - name: Build and push Docker images
       uses: docker/build-push-action@v5.0.0
